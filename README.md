@@ -17,11 +17,27 @@ Plant & Food Research and the Ministry of Health jointly own the [New Zealand Fo
 
 The FOODfiles™ Data is available subject to the FOODfiles™ Data Licensing [terms](https://www.foodcomposition.co.nz/terms/).
 
+## Setup
+
+First install node.js in your terminal.
+
 ```sh
- npm install or npm i
+ npm install
+```
+or
+
+```sh
+npm i
+```
+The other dependencies are already available in the repo.
+
+To run and view in `http://localhost:3000/`, use the following command in your terminal
+
+```sh
+npm run dev
 ```
 
-This is the structure of this boilerplate, provided courtesy of EDA:
+File structure of the boilerplate, provided courtesy of (Enspiral Dev Academy) EDA:
 
 ```sh
 .
