@@ -1,13 +1,13 @@
 
 # What the Label
 
-## Food Label Information
+## Background
 
-Food labeling can be confusing and hard to read, with the small numbers and text in the Nutrition Label Information table. Additionally ingredients lists can be long, and also written in small text. This information can be difficult to process on the go and without a reference point.
+Food labels can be confusing and hard to read, with the small numbers and text in the Nutrition Label Information table. Additionally ingredients lists can be long, and also written in small text. This information can be difficult to process on the go and without a reference point.
 
 ## Goal
 
-The purpose of the website is to visualise food labelling data from food packaging to make this process of interpretation easier. It is not however intended to provide nutritional advice.
+The purpose of the website is to visualise relative food labelling data from food packaging to make this process of interpretation easier. It is not however intended to provide nutritional advice.
 
 ## Data
 
@@ -19,25 +19,22 @@ The FOODfiles™ Data is available subject to the FOODfiles™ Data Licensing [t
 
 ## Setup
 
-First install node.js in your terminal.
+First clone this repo and install Node.js using your terminal:
 
 ```sh
  npm install
 ```
-or
-
-```sh
-npm i
-```
 The other dependencies are already available in the repo.
 
-To run and view in `http://localhost:3000/`, use the following command in your terminal
+To run and view in `http://localhost:3000/`, use the following command in your terminal:
 
 ```sh
 npm run dev
 ```
 
-File structure of the boilerplate, provided courtesy of (Enspiral Dev Academy) EDA:
+## File Structure
+
+The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devacademy.co.nz/), provides a generic file structure:
 
 ```sh
 .
@@ -45,13 +42,9 @@ File structure of the boilerplate, provided courtesy of (Enspiral Dev Academy) E
 │   ├── actions
 │   │   └── index.js
 │   ├── components
-│   │   ├── AddWord.jsx
 │   │   ├── App.jsx
-│   │   ├── Word.jsx
-│   │   └── Words.jsx
 │   ├── reducers
 │   │   ├── index.js
-│   │   └── words.js
 │   └── index.js
 ├── public
 │   ├── index.html
