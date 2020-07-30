@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Food Label Viz</title>
   <link rel="stylesheet" href="/main.css">
 </head>
+
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <h1> Welcome to the food label data viz project!</h1>
+    <h2> Add a new food:</h2>
+    <form action="/foods" method="POST">
+      <input type="text" placeholder="foodgroup" name="foodgroup">
+      <input type="text" placeholder="name" name="name">
+      <button type="submit">Submit</button>
+    </form>
+  
+  </div>
 
   <script src="/bundle.js"></script>
 </body>
+
 </html>
