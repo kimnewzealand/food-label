@@ -57,3 +57,9 @@ The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devaca
 ├── README.md
 └── webpack.config.js
 ```
+
+
+## References
+
+- [Building a Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)
+- [Interactive Data Visualization using D3.js, DC.js, Nodejs and MongoDB](https://analyticsindiamag.com/interactive-data-visualization-using-d3-js-dc-js-nodejs-and-mongodb/)
