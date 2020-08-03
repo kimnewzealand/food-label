@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 
+import { Button } from 'react-bootstrap';
+
 class AddFood extends Component {
   render() {
     return (
@@ -8,7 +10,9 @@ class AddFood extends Component {
             <form action="/foods" method="POST">
                 <input type="text" placeholder="foodgroup" name="foodgroup"/>
                 <input type="text" placeholder="name" name="name"/>
-                <button type="submit">Submit</button>
+                <Button variant="primary" size="lg" active type="submit">
+                    Submit
+                </Button>
             </form>
         </>
     )
