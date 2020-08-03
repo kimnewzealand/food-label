@@ -34,7 +34,7 @@ npm run dev
 
 ## File Structure
 
-The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devacademy.co.nz/), provides a generic file structure:
+The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devacademy.co.nz/), provides a starter generic file structure:
 
 ```sh
 .
@@ -57,9 +57,16 @@ The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devaca
 ├── README.md
 └── webpack.config.js
 ```
+##  The MERN Stack
 
+A popular stacks is called the MERN stack which consists of:
+
+- MongoDb is a document-based database
+- Express js is a back end web and server framework for Node.js 
+- React js is a JavaScript front-end library for building user interfaces
+- Node js is a JavaScript runtime built on Chrome’s V8 JavaScript engine
 
 ## References
 
 - [Building a Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)
-- [Interactive Data Visualization using D3.js, DC.js, Nodejs and MongoDB](https://analyticsindiamag.com/interactive-data-visualization-using-d3-js-dc-js-nodejs-and-mongodb/)
+- [The MERN Stack Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
