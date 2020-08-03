@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Component } from "react"
+import { Route} from "react-router-dom";
 
-const App = () => (
-  <div className='app-container'>
-<h1>Hello, let the project begin</h1>
-  </div>
-)
+import AddFood from './AddFood'
 
+const App = () => {
+  return (
+    <>
+        <h1> Welcome to the Food Label Data Viz Project!</h1>
+        <Route path="/addfood" exact component={AddFood} />
+    </>
+  )
+}
 export default App
