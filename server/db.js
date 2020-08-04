@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient
 
 
-MongoClient.connect('mongodb-connection-string', (err, client) => {
+MongoClient.connect(connectionString, (err, client) => {
     // ... do something here
   })

@@ -71,5 +71,6 @@ A popular stacks is called the MERN stack which consists of:
 ## References
 
 - [Building a Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)
+- [Loading environment variables in JS apps](https://dev.to/deammer/loading-environment-variables-in-js-apps-1p7p)
 - [The MERN Stack Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
 - [Deploy your express + node.js + MongoDB app to Heroku](https://medium.com/@junwu2012/deploy-your-express-node-js-mongodb-app-to-heroku-5e5d21c5a748)

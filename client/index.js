@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { HashRouter as Router } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
+require('dotenv').config()
 
 import reducers from './reducers'
 import App from './components/App'
