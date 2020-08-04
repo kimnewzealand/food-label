@@ -1,7 +1,6 @@
 const path = require('path')
 const express = require('express')
 const bodyParser= require('body-parser')
-const connectionString='mongodb+srv://foodie:Myfood123@cluster0.iapap.mongodb.net/food-label?retryWrites=true&w=majority'
 const server = express()
 
 server.use(express.json())
