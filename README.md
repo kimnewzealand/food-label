@@ -32,6 +32,8 @@ To run and view in `http://localhost:3000/`, use the following command in your t
 npm run dev
 ```
 
+The application is deployed to Heroku [`https://food-label.herokuapp.com/`](https://food-label.herokuapp.com/)
+
 ## File Structure
 
 The boilerplate provided courtesy of [EDA (Enspiral Dev Academy)](https://devacademy.co.nz/), provides a starter generic file structure:
@@ -70,3 +72,4 @@ A popular stacks is called the MERN stack which consists of:
 
 - [Building a Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)
 - [The MERN Stack Tutorial](https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
+- [Deploy your express + node.js + MongoDB app to Heroku](https://medium.com/@junwu2012/deploy-your-express-node-js-mongodb-app-to-heroku-5e5d21c5a748)

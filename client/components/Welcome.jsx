@@ -7,7 +7,7 @@ const Welcome = () => {
             <div class="row flex-middle">
   <div class="sm-6 col">Aligned middle</div>
   <div class="sm-6 col">
-  <h1> Welcome to the Food Label Data Viz Project!</h1>
+  <h1> Welcome to a Food Label Data Viz Project!</h1>
    </div>
 </div>
     </>
