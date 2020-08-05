@@ -7,7 +7,7 @@ const Welcome = () => {
       <div id="top" class ="row site">
             <div className="row flex-center">
               <div className="text-center">
-                <h2>A Comparison of 2 Butters</h2>
+                <h2>A Comparison of Butters</h2>
 
                 <div className="card" >
                     <img src="./img/butter_saltedNIP.png" alt="salted butter Nutrition information panel"/>
@@ -15,7 +15,6 @@ const Welcome = () => {
                     <h4 class="card-title">Butter A</h4>
                     </div>
                 </div>
-
                 <div className="card" >
                     <img src="./img/butter_unsaltedNIP.png" alt="unsalted butter Nutrition information panel"/>
                     <div className="card-body">
