@@ -12,6 +12,10 @@
     "dev": "run-p dev:client dev:server",
     "test": "jest --verbose"
   },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "author": "EDA",
   "license": "ISC",
   "babel": {
