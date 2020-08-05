@@ -1,14 +1,18 @@
 import React from "react"
+import { Link} from "react-router-dom"
 
 const Welcome = () => {
   return (
     <>
-    <div><p>" "</p></div>
-      <div class="row flex-bottom ">
-          <div class="sm-6 col">
-            <button class="btn-block">Welcome to a Food Label Data Viz Project!</button>
+      <div id="top" class ="row site">
+            <div className="row flex-center">
+              <div className="text-center">
+                <h2>Welcome to a Food Label Data Viz Project!</h2>
+                <p>The purpose of this website is to visualise relative food labelling data and Nutrition Information Panels from food packaging to make this process of interpretation a little bit easier. </p>
+              <Link to="/butter" className="paper-bt margin">First let's take a look at butter  ...</Link>
+              </div>
           </div>
-        </div>
+      </div>
     </>
   )
 }

@@ -5,6 +5,7 @@ require('dotenv').config()
 import AddFood from './AddFood'
 import Header from './Header'
 import Welcome from './Welcome'
+import Butter from './Butter'
 
 const App = () => {
   console.log('Confirm env variables available', process.env)
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" component={Header} />
         <Route path="/" exact component={Welcome} />
         <Route path="/new" exact component={AddFood} />
+        <Route path="/butter" exact component={Butter} />
     </>
   )
 }
