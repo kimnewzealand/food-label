@@ -3,11 +3,12 @@ import React from "react"
 const Welcome = () => {
   return (
     <>
-      <div class="row flex-middle">
-        <div class="sm-6 col">
-          <h1> Welcome to a Food Label Data Viz Project!</h1>
+    <div><p>" "</p></div>
+      <div class="row flex-bottom ">
+          <div class="sm-6 col">
+            <button class="btn-block">Welcome to a Food Label Data Viz Project!</button>
+          </div>
         </div>
-      </div>
     </>
   )
 }
