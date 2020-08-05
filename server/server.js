@@ -14,28 +14,28 @@ server.get('/', (req, res) => {
 
 const MongoClient = require('mongodb').MongoClient
 
-MongoClient.connect(connectionString, { useUnifiedTopology: true })
-  .then(client => {
-    console.log('Connected to Database')
-  })
-  .catch(error => console.error(error))
+// MongoClient.connect(connectionString, { useUnifiedTopology: true })
+//   .then(client => {
+//     console.log('Connected to Database')
+//   })
+//   .catch(error => console.error(error))
 
-  MongoClient.connect(/* ... */)
-  .then(client => {
-    // ...
-    const db = client.db('food-label')
-    const foodsCollection = db.collection('store-foods')
-    server.use(/* ... */)
-    server.get(/* ... */)
-    server.post('/addfood', (req, res) => {
-      foodsCollection.insertOne(req.body)
-        .then(result => {
-          console.log(result)
-        })
-        .catch(error => console.error(error))
-    })
-    server.listen(/* ... */)
-  })
-  .catch(console.error)
+//   MongoClient.connect(/* ... */)
+//   .then(client => {
+//     // ...
+//     const db = client.db('food-label')
+//     const foodsCollection = db.collection('store-foods')
+//     server.use(/* ... */)
+//     server.get(/* ... */)
+//     server.post('/addfood', (req, res) => {
+//       foodsCollection.insertOne(req.body)
+//         .then(result => {
+//           console.log(result)
+//         })
+//         .catch(error => console.error(error))
+//     })
+//     server.listen(/* ... */)
+//   })
+//   .catch(console.error)
 
 module.exports = server
