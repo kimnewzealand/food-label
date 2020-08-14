@@ -18,6 +18,7 @@ const Header = () => {
                     <div className="collapsible-body">
                         <ul className="inline">
                             <li><a href="https://github.com/kimnewzealand/food-label">Github</a></li>
+                            <li><a href="https://www.foodcomposition.co.nz/">Source Data</a></li>
                         </ul>
                     </div>
                 </div>

@@ -8,33 +8,32 @@ const Welcome = () => {
             <div className="row flex-center">
               <div className="text-center">
                 <h2>A Comparison of Butters</h2>
-
                 <div className="card" >
                     <table>
                         <thead>
                             <tr>
-                            <th>Food</th>
-                            <th>Energy</th>
-                        <th>Protein</th>
-                        <th>Fat Total</th>
-                        <th>Fat Saturated</th>
-                        <th>Carbohydrate</th>
-                        <th>Sugars</th>
-                        <th>Fibre</th>
-                        <th>Sodium</th>
+                                <th>Food</th>
+                                <th>Energy</th>
+                                <th>Protein</th>
+                                <th>Fat Total</th>
+                                <th>Fat Saturated</th>
+                                <th>Carbohydrate</th>
+                                <th>Sugars</th>
+                                <th>Fibre</th>
+                                <th>Sodium</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                            <td>Butter Salted</td>
-                            <td>3050</td>
-                            <td>0.5</td>
-                            <td>82.1</td>
-                            <td>53.1</td>
-                        <td>0.4</td>
-                        <td>0.4</td>
-                        <td>0</td>
-                        <td>547</td>
+                                <td>Butter Salted</td>
+                                <td>3050</td>
+                                <td>0.5</td>
+                                <td>82.1</td>
+                                <td>53.1</td>
+                                <td>0.4</td>
+                                <td>0.4</td>
+                                <td>0</td>
+                                <td>547</td>
                             </tr>
                         </tbody>         
                     </table>    
