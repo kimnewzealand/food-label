@@ -5,76 +5,110 @@ const Welcome = () => {
   return (
     <>
       <div id="top" class ="row site">
+
+      <div class="row">
+  <div class="collapsible">
+     <input id="collapsible1" type="checkbox" name="collapsible"></input>
+    <label for="collapsible1">Butter, salted</label>
+     <div class="collapsible-body">
+
             <div className="row flex-center">
               <div className="text-center">
-                <h2>A Comparison of Butters</h2>
                 <div className="card" >
-                    <table>
-                        <thead>
+                    <table>     
+                       <h4>Nutritin Information Panel</h4>
                             <tr>
-                                <th>Food</th>
+                                <th></th>
+                                <td>QUANTITY PER 100 g</td>
+                            </tr>
+                            <tr>
                                 <th>Energy</th>
-                                <th>Protein</th>
-                                <th>Fat Total</th>
-                                <th>Fat Saturated</th>
-                                <th>Carbohydrate</th>
-                                <th>Sugars</th>
-                                <th>Fibre</th>
-                                <th>Sodium</th>
+                                <td>3050kj</td>
                             </tr>
-                        </thead>
-                        <tbody>
                             <tr>
-                                <td>Butter Salted</td>
-                                <td>3050</td>
-                                <td>0.5</td>
-                                <td>82.1</td>
-                                <td>53.1</td>
-                                <td>0.4</td>
-                                <td>0.4</td>
-                                <td>0</td>
-                                <td>547</td>
+                                <th>Protein</th>
+                                <td>0.5g</td>
                             </tr>
-                        </tbody>         
+                            <tr>
+                                <th>Fat Total</th>
+                                <td>82.1g</td>
+                            </tr>
+                            <tr>
+                                <th> - Saturated</th>
+                                <td>53.1g</td>
+                                </tr>
+                            <tr>
+                                <th>Carbohydrate</th>
+                                <td>0.4g</td>
+                            </tr>
+                            <tr>
+                                <th> - Sugar</th>
+                                <td>0.4g</td>
+                            </tr>
+                            <tr>
+                                <th>Fibre</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <th>Sodium</th>
+                                <td>547mg</td>
+                            </tr>        
                     </table>    
                     {/* <img src="./img/butter_saltedNIP.png" alt="salted butter Nutrition information panel"/> */}
-                    <div className="card-body">
-                    </div>
                 </div>
-                <p></p>
-                <div className="card" >
-                    <table>
-                        <thead>
+                </div> 
+    </div>
+  </div>
+  <div class="collapsible">
+     <input id="collapsible1" type="checkbox" name="collapsible"></input>
+    <label for="collapsible1">Butter, unsalted</label>
+     <div class="collapsible-body">
+
+            <div className="row flex-center">
+              <div className="text-center">
+                    <table>     
+                       <h3>Butter Unsalted</h3>
                             <tr>
-                            <th>Food</th>
-                            <th>Energy</th>
-                        <th>Protein</th>
-                        <th>Fat Total</th>
-                        <th>Fat Saturated</th>
-                        <th>Carbohydrate</th>
-                        <th>Sugars</th>
-                        <th>Fibre</th>
-                        <th>Sodium</th>
+                                <th></th>
+                                <td>QUANTITY PER 100 g</td>
                             </tr>
-                        </thead>
-                        <tbody>
                             <tr>
-                            <td>Butter Unsalted</td>
-                            <td>3110</td>
-                            <td>0.3</td>
-                            <td>83.5</td>
-                            <td>54.1</td>
-                        <td>0.5</td>
-                        <td>0.5</td>
-                        <td>0</td>
-                        <td>7</td>
+                                <th>Energy</th>
+                                <td>3110kj</td>
                             </tr>
-                        </tbody>
-                    </table>
-                    {/* <img src="./img/butter_unsaltedNIP.png" alt="salted butter Nutrition information panel"/> */}
-                    <div className="card-body">
-             
+                            <tr>
+                                <th>Protein</th>
+                                <td>0.3g</td>
+                            </tr>
+                            <tr>
+                                <th>Fat Total</th>
+                                <td>83.5g</td>
+                            </tr>
+                            <tr>
+                                <th> - Saturated</th>
+                                <td>54.1g</td>
+                                </tr>
+                            <tr>
+                                <th>Carbohydrate</th>
+                                <td>0.5g</td>
+                            </tr>
+                            <tr>
+                                <th> - Sugar</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <th>Fibre</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <th>Sodium</th>
+                                <td>7mg</td>
+                            </tr>    
+                    </table> 
                     </div>
+  </div>
+  </div>
+                   
                 </div>
              
               </div>

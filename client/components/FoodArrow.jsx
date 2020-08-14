@@ -15,7 +15,7 @@ const FoodArrow = () => {
                     src="https://www.heartfoundation.org.nz/media/images/nutrition/general-images/food-label-reading_737_553.jpg" alt=""/>
                 </div>
                 <div className="row flex-center">                  
-                    <Link to="/butter" ><h4>Visualise this instead ➽</h4></Link>
+                    <Link to="/butter" ><h4>Visualise a food label instead ➽</h4></Link>
                 </div>
             </div>
         </div>
