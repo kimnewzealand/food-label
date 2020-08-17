@@ -5,17 +5,18 @@ const FoodArrow = () => {
   //https://fsymbols.com/signs/arrow/
   return (
     <>
-        <div className="paper">
-            <div className="row flex-center">
-                <a href="https://www.heartfoundation.org.nz/wellbeing/healthy-eating/how-to-read-food-labels">The Heart Foundation NZ has guidance on how to read labels ...</a>
-            </div>
+        <div className="paper">           
             <div className="container-xs">
                 <div className="row flex-center">
-                    <img  width="30%" popover-top="Popover on top"
+                    <img  width="30%" 
                     src="https://www.heartfoundation.org.nz/media/images/nutrition/general-images/food-label-reading_737_553.jpg" alt=""/>
                 </div>
-                <div className="row flex-center">                  
-                    <Link to="/butter" ><h4>Visualise a food label instead ➽</h4></Link>
+                <div className="row flex-center">
+                    <a href="https://www.heartfoundation.org.nz/wellbeing/healthy-eating/how-to-read-food-labels">https://www.heartfoundation.org.nz/</a>
+                </div>
+                <div className="row flex-center"> 
+                    <h4>Visualise a food label instead</h4>               
+                    <Link to="/butter" > <h4>➽</h4></Link>
                 </div>
             </div>
         </div>
