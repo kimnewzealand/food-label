@@ -9,6 +9,9 @@ const Butter = () => {
         <div className="paper">           
             <div className="container-xs">
                 <div className="row flex-center">
+                   <h3>Data Viz Prototype - Butters</h3>
+                </div>
+                <div className="row flex-center">
                     <p>Food Group Legend</p>
                 </div>
                 <div className="row flex-center">
@@ -21,6 +24,8 @@ const Butter = () => {
                 <div className="collapsible-body">
                     <div className="row flex-center">
                         <div className="text-center">
+                            <div className="card" >
+                            </div>
                             <div className="card" >
                                 <table>     
                                     <h4>Nutrition Information Panel</h4>
