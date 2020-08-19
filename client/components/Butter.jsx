@@ -6,16 +6,18 @@ const dataset = [1,2,3,4]
 const Butter = () => {
   return (
     <>
-        <div className="paper">           
+                  
             <div className="container-xs">
                 <div className="row flex-center">
                    <h3>Data Viz Prototype - Butters</h3>
                 </div>
-                <div className="row flex-center">
-                    <p>Food Group Legend</p>
-                </div>
-                <div className="row flex-center">
-                    <GroupLegend width={600} height={400} data={dataset} />
+                <div className="paper"> 
+                    <div className="row flex-center">
+                        <p>Food Group</p>
+                    </div>
+                    <div className="row flex-center">
+                        <GroupLegend width={600} height={400} data={dataset} />
+                    </div>
                 </div>
             <div className="row flex-center">
             <div className="collapsible">
@@ -122,9 +124,7 @@ const Butter = () => {
                 </div>       
               </div>
           </div>
-      </div>
-      </div>
-        
+      </div>        
     </>
   )
 }

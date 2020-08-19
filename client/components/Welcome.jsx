@@ -8,7 +8,7 @@ const palette = d3.scaleOrdinal(d3.schemeSet3)
 const Welcome = () => {
   return (
     <>
-      <div className="paper">
+      {/* <div className="paper"> */}
         <div className="container-xs">
           <div id="top" class ="row site">
             <div className="row flex-center">
@@ -35,7 +35,7 @@ const Welcome = () => {
         <div>
           
         </div>
-      </div>
+      {/* </div> */}
     </>
   )
 }
