@@ -1,6 +1,6 @@
 import React , { useRef, useEffect }  from "react"
 import * as d3 from 'd3'
-//https://www.pluralsight.com/guides/d3-treemap-in-react
+
 const GroupLegend = ({ width, height, data }) => {
     const ref = useRef();
     const foodGroup= ['Fruit','Dairy','Meat','Vegetables']
@@ -16,21 +16,20 @@ const GroupLegend = ({ width, height, data }) => {
         const svg = d3.select(ref.current)
             .attr("width", width)
             .attr("height", height/4)
-            // .style("border", "1px solid black")
 
             svg
                 .selectAll('rect')
                 .data(foodGroup)
                 .enter()
                 .append('rect')
-                .attr("x",-12)
+                .attr("x", -12)
                 .attr("width", 25)
                 .attr("height", 25)
                 .attr('fill', d => palette(d))
                 .attr("stroke", "black")
                 .attr('transform', (d, i) => 'translate(' + xScale(i) + ',20)')
 
-                svg
+            svg
                 .selectAll('text')
                 .data(foodGroup)
                 .enter()
@@ -38,14 +37,15 @@ const GroupLegend = ({ width, height, data }) => {
                   .attr('transform', (d, i) => 'translate(' + xScale(i) + ', 70)')
                   .attr("text-anchor", "middle")
                   .text(d=>d)
-    }, []);
+    }, [])
 
     const draw = () => {
         
     }
+
     useEffect(() => {
-        draw();
-    }, [data]);
+        draw()
+    }, [data])
 
     return (
         <>
