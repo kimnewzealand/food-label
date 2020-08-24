@@ -1,9 +1,11 @@
 import React , { useRef, useEffect }  from "react"
 import * as d3 from 'd3'
 
-const GroupLegend = ({ width, height, data }) => {
-    const ref = useRef();
-    const foodGroup= ['Fruit','Dairy','Meat','Vegetables']
+const GroupLegendViz = ({ width, height }) => {
+    const ref = useRef()
+    // Keep group data as static in this component for now
+    const numGroups = [1,2,3,4]
+    const foodGroup= ['Fruit','Dairy','Meat','Miscellaneous']
     //Add a colour palette 
     const palette = d3.scaleOrdinal(d3.schemeSet3)
     
@@ -45,7 +47,7 @@ const GroupLegend = ({ width, height, data }) => {
 
     useEffect(() => {
         draw()
-    }, [data])
+    }, [numGroups])
 
     return (
         <>
@@ -58,4 +60,4 @@ const GroupLegend = ({ width, height, data }) => {
 
 }
 
-export default GroupLegend;
+export default GroupLegendViz;

@@ -1,12 +1,11 @@
 import React from "react"
-import GroupLegend from './GroupLegend'
+import GroupLegendViz from './GroupLegendViz'
 
-const dataset = [1,2,3,4]
+
 
 const Butter = () => {
   return (
-    <>
-                  
+    <>             
             <div className="container-xs">
                 <div className="row flex-center">
                    <h3>Data Viz Prototype - Butters</h3>
@@ -16,7 +15,7 @@ const Butter = () => {
                         <p>Food Group</p>
                     </div>
                     <div className="row flex-center">
-                        <GroupLegend width={600} height={400} data={dataset} />
+                        <GroupLegendViz width={600} height={400}  />
                     </div>
                 </div>
             <div className="row flex-center">
