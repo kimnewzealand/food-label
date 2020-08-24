@@ -1,7 +1,8 @@
 import React from "react"
 import GroupLegendViz from './GroupLegendViz'
+import GramViz from './GramViz'
 
-
+// Todo: To move tables to components
 
 const Butter = () => {
   return (
@@ -23,6 +24,9 @@ const Butter = () => {
                 <input id="collapsible1" type="checkbox" name="collapsible"></input>
                 <label for="collapsible1">Butter, salted</label>
                 <div className="collapsible-body">
+                    <div className="row flex-center">
+                        <GramViz width={600} height={400} data={1,2,3} />
+                    </div>
                     <div className="row flex-center">
                         <div className="text-center">
                             <div className="card" >

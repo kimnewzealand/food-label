@@ -7,7 +7,11 @@ const GramViz = ({ width, height, data }) => {
     return (
         <>
         <div className="chart">
+            <div className="row flex-center">
+                GramViz should be here!
+            </div>
             <svg ref={ref}>
+                
             </svg>
         </div>
         </>
