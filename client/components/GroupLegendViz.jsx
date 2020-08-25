@@ -51,13 +51,11 @@ const GroupLegendViz = ({ width, height }) => {
 
     return (
         <>
-        <div className="chart">
             <svg ref={ref}>
             </svg>
-        </div>
         </>
     )
 
 }
 
-export default GroupLegendViz;
+export default GroupLegendViz

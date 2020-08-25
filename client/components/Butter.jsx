@@ -25,7 +25,7 @@ const Butter = () => {
                 <label for="collapsible1">Butter, salted</label>
                 <div className="collapsible-body">
                     <div className="row flex-center">
-                        <GramViz width={600} height={400} data={1,2,3} />
+                        <GramViz width={600} height={400} data={1,2,3,4} />
                     </div>
                     <div className="row flex-center">
                         <div className="text-center">
