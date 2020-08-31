@@ -16,7 +16,6 @@ const WelcomeCircles = () => {
                     cy="50"
                     r={Math.sqrt(a)}
                     fill= {  palette(i) }
-                    opacity ="0.5"
                 />
             ))}
         </svg>
