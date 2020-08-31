@@ -1,6 +1,7 @@
 import React from "react"
 import GroupLegendViz from './GroupLegendViz'
 import GramViz from './GramViz'
+import KjViz from './KjViz'
 
 // Todo: To move tables to components
 
@@ -25,7 +26,14 @@ const Butter = () => {
                 <label for="collapsible1">Butter, salted</label>
                 <div className="collapsible-body">
                     <div className="row flex-center">
-                        <GramViz width={600} height={400} data={1,2,3,4} />
+                        <div className="card" >   
+                            <h4>Kilojoule Visualisation</h4> 
+                            <KjViz width={600} height={400} data={1,2,3,4} />
+                        </div>
+                        <div className="card" > 
+                            <h4>Gram Visualisation</h4> 
+                            <GramViz width={600} height={400} data={1,2,3,4} />
+                        </div>
                     </div>
                     <div className="row flex-center">
                         <div className="text-center">
