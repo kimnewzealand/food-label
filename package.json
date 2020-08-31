@@ -38,7 +38,8 @@
     "fs": "0.0.1-security",
     "mongodb": "^3.5.9",
     "papercss": "^1.7.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^8.0.27"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
