@@ -17,12 +17,12 @@ const KjViz = ({ width, height, data }) => {
       useEffect(() => {
         const xScale = d3.scaleLinear()
         // D3 creates a function xScale which accepts input between 0 and 3 (the domain) and maps it to output between 50 and 650 (the range).
-        .domain([0, foodData.length-1])
+        .domain([0, 0])
         .range([50, width-50]);
 
         const svg = d3.select(ref.current)
             .attr("width", width)
-            .attr("height", height/2)      
+            .attr("height", height/4)      
 
         svg
             .selectAll('rect')
@@ -31,17 +31,16 @@ const KjViz = ({ width, height, data }) => {
             .append('rect')
                 .attr('fill',"#ffff33" )
                 .style("fill-opacity", 0.3)
-                .attr("x",width/8)
                 .attr("width", d=>d.kj/10)
                 .attr("height", d=>d.kj/30)
                 .attr("stroke","#d3d3d3")
-                .attr('transform', (d, i) => 'translate(' + xScale(i) + ', 0)')
+                .attr('transform', (d, i) => 'translate(' + xScale(i) + ', d=>d.kj/10)')
         svg
             .selectAll('text')
             .data(foodData[0])
             .enter()
             .append('text')
-                .attr('transform', (d, i) => 'translate(' + xScale(i) + ', 100)')
+                .attr('transform', (d, i) => 'translate(' + xScale(i) + ', 0)')
                 .attr("text-anchor", "middle")
                 .text(d => d.label)
     },[])
